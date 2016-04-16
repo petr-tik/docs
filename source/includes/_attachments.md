@@ -14,7 +14,7 @@ If you are hosting the attachment, you can simply register the attachment with t
 
 1. [Register](#register-attachment) the attachment against a `transaction`.
 
-## POST Upload attachment
+## (POST) Upload attachment
 
 The first step when uploading an attachment is to obtain a temporary URL to which the file can be uploaded. The response will include a `file_url` which will be the URL of the resulting file, and an `upload_url` to which the file should be uploaded to.
 

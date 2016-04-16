@@ -7,14 +7,14 @@ language_tabs:
 
 includes:
   - authentication
-  - pagination
-  - object_expansion
   - accounts
   - balance
   - transactions
   - feed_items
   - webhooks
   - attachments
+  - pagination
+  - object_expansion
   - errors
 
 search: false
@@ -46,7 +46,6 @@ Access_token="your_access_token"
 
 The Mondo API is designed to be a predictable and intuitive interface for interacting with users' accounts. We offer both a REST API and webhooks.
 
-Our developers' community in Slack is the place to get help with our API, discuss ideas, and show off what you build. Hit the button to join:
 
 <input id="txt" value="User_ID = 'your_user_id'
 Account_ID = 'your_account_number'
@@ -56,6 +55,8 @@ readonly>
 <button id="btn" style="background-color:#4AB8DE">Copy</button>
 
 <script type="text/javascript" src="/app/_copy_clipboard.js"></script>
+
+Our developers' community in Slack is the place to get help with our API, discuss ideas, and show off what you build. Hit the button to join:
 
 <script async defer src="https://devslack.getmondo.co.uk/slackin.js"></script>
 
