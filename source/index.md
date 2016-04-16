@@ -41,3 +41,11 @@ Our developers' community in Slack is the place to get help with our API, discus
 <aside class="warning">
 The Mondo API is under active development. Breaking changes should be expected.
 </aside>
+
+## Your Details
+
+User ID: <your_user_id>
+
+Account ID: <your_account_number>
+
+Access token: <your_access_token>
