@@ -6,6 +6,7 @@ language_tabs:
   - python: Python
 
 includes:
+  - quickstart
   - authentication
   - accounts
   - balance
@@ -45,16 +46,6 @@ Access_token="your_access_token"
 > To install `httpie` on OS X run `brew install httpie`
 
 The Mondo API is designed to be a predictable and intuitive interface for interacting with users' accounts. We offer both a REST API and webhooks.
-
-
-<input id="txt" value="User_ID = 'your_user_id'
-Account_ID = 'your_account_number'
-Access_token = 'your_access_token'"
-readonly>
-
-<button id="btn" style="background-color:#4AB8DE">Copy</button>
-
-<script type="text/javascript" src="/app/_copy_clipboard.js"></script>
 
 Our developers' community in Slack is the place to get help with our API, discuss ideas, and show off what you build. Hit the button to join:
 
