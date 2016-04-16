@@ -2,7 +2,7 @@
 title: Mondo API Reference
 
 language_tabs:
-  - shell: cURL
+  - shell: Curl
   - python: Python
 
 includes:
