@@ -39,8 +39,8 @@ User_ID="your_user_id"
 Account_ID="your_account_number"
 Access_token="your_access_token"
 ```
-> <button class="button-save large" onclick="copy" style="background-color:#4AB8DE">Copy</button>
-  
+> <button class="button-save large" onclick="copy" style="background-color:#4AB8DE;border-radius: 4px;border: none;color:#FFFFFF">Copy</button>
+
 > Examples in this documentation are written using [httpie](https://github.com/jkbrzt/httpie) for clarity.
 
 > To install `httpie` on OS X run `brew install httpie`
