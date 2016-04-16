@@ -1,19 +1,19 @@
 # API Reference
 
-#Who am I?
+##Who am I?
 
-#List accounts
+##List accounts
 
-#List transactions
+##List transactions
 
-#Show balance
+##Show balance
 
-#List webhooks
+##List webhooks
 
-#Delete webhook
+##Delete webhook
 
-#Register webhook
+##Register webhook
 
-#Attach an image to a transaction
+##Attach an image to a transaction
 
-#Create a feed item
+##Create a feed item
