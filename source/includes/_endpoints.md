@@ -1,19 +1,57 @@
 # API Reference
 
-##Who am I?
+## <span title="get" class="type-get">get</span> Who am I?
 
-##List accounts
+<span title="get" class="type-get">get</span>
 
-##List transactions
+```
+GET /ping/whoami
+```
 
-##Show balance
+## GET List accounts
 
-##List webhooks
+```
 
-##Delete webhook
+```
 
-##Register webhook
+## GET List transactions
 
-##Attach an image to a transaction
+```
 
-##Create a feed item
+```
+
+## GET Show balance
+
+```
+
+```
+
+## GET List webhooks
+
+```
+
+```
+
+## DELETE Delete webhook
+
+```
+
+```
+
+## POST Register webhook
+
+```
+
+```
+
+## POST Attach an image to a transaction
+
+```
+
+```
+
+## POST Create a feed item
+
+```
+
+```
