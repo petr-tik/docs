@@ -39,7 +39,6 @@ Account_ID="your_account_number"
 Access_token="your_access_token"
 ```
 > <button class="button-save large" onclick="copy" style="background-color:#4AB8DE">Copy</button>
-<script src="source/javascripts/app/copy_clipboard.js"></script>
   
 > Examples in this documentation are written using [httpie](https://github.com/jkbrzt/httpie) for clarity.
 
@@ -49,12 +48,14 @@ The Mondo API is designed to be a predictable and intuitive interface for intera
 
 Our developers' community in Slack is the place to get help with our API, discuss ideas, and show off what you build. Hit the button to join:
 
-User_ID = "your_user_id"  
-Account_ID = "your_account_number"  
-Access_token = "your_access_token"
+<input id="txt" value="User_ID = 'your_user_id'
+Account_ID = 'your_account_number'
+Access_token = 'your_access_token'"
+readonly>
 
-<button class="button-save large" onclick="copy" style="background-color:#4AB8DE">Copy</button>
+<button id="btn" style="background-color:#4AB8DE">Copy</button>
 
+<script type="text/javascript" src="/app/_copy_clipboard.js"></script>
 
 <script async defer src="https://devslack.getmondo.co.uk/slackin.js"></script>
 
