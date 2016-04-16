@@ -141,7 +141,7 @@ An access token is tied to both your client and an individual Mondo user and is 
 `username`<br><span class="label notice">Required</span>|The user's email address.
 `password`<br><span class="label notice">Required</span>|The user's password.
 
-## Authenticating requests
+## (GET) Authenticating requests
 
 ```shell
 $ http "https://api.getmondo.co.uk/ping/whoami" \
@@ -160,7 +160,7 @@ $ http "https://api.getmondo.co.uk/ping/whoami" \
 To get information about an access token, you can call the `/ping/whoami` endpoint.
 
 
-## Refreshing access
+## (POST) Refreshing access
 
 ```shell
 $ http --form POST "https://api.getmondo.co.uk/oauth2/token" \
