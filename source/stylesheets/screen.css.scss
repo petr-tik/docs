@@ -166,6 +166,8 @@ html, body {
     transition-property: background;
     transition-timing-function: linear;
     transition-duration: 230ms;
+    background-position: 8px -12px;
+    background-color: #6bbd5b;
   }
 
   // This is the currently selected ToC entry
@@ -197,8 +199,6 @@ html, body {
     li,a {
       color: $nav-text;
       text-decoration: none;
-      background-position: 8px -12px;
-      background-color: #6bbd5b;
     }
 
     a:hover {
@@ -209,8 +209,6 @@ html, body {
       font-size: 0.8em;
       line-height: 1.7;
       text-decoration: none;
-      background-position: 8px -12px;
-      background-color: #6bbd5b;
     }
   }
 
