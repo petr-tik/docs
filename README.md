@@ -26,9 +26,11 @@ bundle install
 bundle exec middleman server
 ```
 
-Once the server is running, 
+Once the server is running, you can add changes to different markdown files and reload page. 
 
 Need Help? Found a bug?
 --------------------
 
-Just [submit an issue](https://github.com/mondough/mondocs/issues) to this GitHub repo if you need any help. And, of course, feel free to submit pull requests with bug fixes or changes.
+Just [submit an issue](https://github.com/mondough/mondocs/issues) to this GitHub repo if you need any help. 
+
+If you see a typo or want to update/elaborate on our documentation - feel free to submit pull requests with bug fixes or changes.
