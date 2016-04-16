@@ -21,7 +21,7 @@ Clients are designated either confidential or non-confidential.
 
     Non-confidential clients are not issued refresh tokens.
 
-## Acquire an access token
+## (GET) Acquire an access token
 
 Acquiring an access token is a three-step process:
 
@@ -103,7 +103,7 @@ When you receive an authorization code, exchange it for an access token. The res
 `code`<br><span class="label notice">Required</span>|The authorization code you received when the user was redirected back to your app.
 
 
-## Password grant
+## (POST) Password grant
 
 Using the password grant involves:
 
@@ -146,7 +146,9 @@ An access token is tied to both your client and an individual Mondo user and is 
 `username`<br><span class="label notice">Required</span>|The user's email address.
 `password`<br><span class="label notice">Required</span>|The user's password.
 
+
 ## (GET) Authenticating requests
+
 
 ```shell
 $ http "https://api.getmondo.co.uk/ping/whoami" \
