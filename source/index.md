@@ -16,6 +16,7 @@ includes:
   - webhooks
   - attachments
   - errors
+  - endpoints
 
 search: false
 ---
@@ -27,7 +28,7 @@ search: false
 ```
 https://api.getmondo.co.uk
 ```
-```python 
+```python
 User_ID = "your_user_id"
 
 Account_ID = "your_account_number"
@@ -56,7 +57,3 @@ Our developers' community in Slack is the place to get help with our API, discus
 <aside class="warning">
 The Mondo API is under active development. Breaking changes should be expected.
 </aside>
-
-
-
-
