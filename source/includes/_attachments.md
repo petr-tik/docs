@@ -47,11 +47,7 @@ $ http --form POST "https://api.getmondo.co.uk/attachment/upload" \
 `upload_url`|The URL to `POST` the file to when uploading
 
 
-<<<<<<< HEAD
 ## (POST) Register attachment
-=======
-## POST Register attachment
->>>>>>> origin/master
 
 Once you have obtained a URL for an attachment, either by uploading to the `upload_url` obtained from the `upload` endpoint above or by hosting a remote image, this URL can then be registered against a transaction. Once an attachment is registered against a transaction this will be displayed on the detail page of a transaction within the Mondo app.
 
@@ -95,11 +91,7 @@ $ http --form POST "https://api.getmondo.co.uk/attachment/register" \
 `file_type`|The file type of the `attachment`.
 `created`|The timestamp *in UTC* when the attachment was created.
 
-<<<<<<< HEAD
 ## (POST) Deregister attachment
-=======
-## POST Deregister attachment
->>>>>>> origin/master
 
 To remove an `attachment`, simply deregister this using its `id`
 

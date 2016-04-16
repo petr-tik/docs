@@ -16,7 +16,6 @@ includes:
   - webhooks
   - attachments
   - errors
-  - endpoints
 
 search: false
 ---
