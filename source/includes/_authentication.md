@@ -102,7 +102,7 @@ When you receive an authorization code, exchange it for an access token. The res
 `redirect_uri`<br><span class="label notice">Required</span>|The URL in your app where users were sent after authorisation.
 `code`<br><span class="label notice">Required</span>|The authorization code you received when the user was redirected back to your app.
 
-<<<<<<< HEAD
+
 ## Password grant
 
 Using the password grant involves:
@@ -147,9 +147,6 @@ An access token is tied to both your client and an individual Mondo user and is 
 `password`<br><span class="label notice">Required</span>|The user's password.
 
 ## (GET) Authenticating requests
-=======
-## Authenticating requests
->>>>>>> origin/master
 
 ```shell
 $ http "https://api.getmondo.co.uk/ping/whoami" \
