@@ -27,6 +27,21 @@ search: false
 ```
 https://api.getmondo.co.uk
 ```
+```python 
+User_ID = "your_user_id"
+
+Account_ID = "your_account_number"
+
+Access_token = "your_access_token"
+```
+```shell
+User_ID="your_user_id"
+
+Account_ID="your_account_number"
+
+Access_token="your_access_token"
+```
+
 
 > Examples in this documentation are written using [httpie](https://github.com/jkbrzt/httpie) for clarity.
 
@@ -42,10 +57,6 @@ Our developers' community in Slack is the place to get help with our API, discus
 The Mondo API is under active development. Breaking changes should be expected.
 </aside>
 
-## Your Details
 
-User ID: <your_user_id>
 
-Account ID: <your_account_number>
 
-Access token: <your_access_token>
